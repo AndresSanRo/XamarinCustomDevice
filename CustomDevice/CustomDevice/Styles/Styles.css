@@ -1,0 +1,42 @@
+﻿frame {
+    width: 300px;
+    height: 480px;
+    background-color: lightyellow;
+    margin: 10px;
+}
+
+ 
+label {
+    margin: 4px 0px;
+}
+
+ 
+stacklayout.principal {
+    margin: 0px 40px 0px 0px;
+}
+
+ 
+label.header {
+    margin: 8px 0px;
+    font-size: 40px;
+    color: blue;
+}
+
+ 
+label.empty {
+    flex-grow: 1;
+}
+
+ 
+image {
+    height: 150px;
+    order: -1;
+    align-self: center;
+}
+
+ 
+button {
+    font-size: large;
+    color: white;
+    background-color: green;
+}

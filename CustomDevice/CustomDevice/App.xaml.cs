@@ -11,7 +11,7 @@ namespace CustomDevice
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new CssPage();
         }
 
         protected override void OnStart()

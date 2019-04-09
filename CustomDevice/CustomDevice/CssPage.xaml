@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomDevice.CssPage">
+    <ContentPage.Resources>
+        <!--<StyleSheet Source="../Styles/Styles.css"/>-->
+        <Style TargetType="Frame">
+            <Setter Property="BorderColor" Value="Red"/>
+            <Setter Property="CornerRadius" Value="20"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="CornerRadius" Value="20"/>
+            <Setter Property="Text" Value="Saber más..."/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView Orientation="Both">
+                <FlexLayout>
+                    <Frame>
+                        <FlexLayout Direction="Column">
+                            <Label Style="header" Text="Regreso al futuro"/>
+                            <Label Text="El protagonista hoy es Marty MacFly"/>
+                            <Image Source=""/>
+                            <Label Text="&#x2022; Condensador de flujo"/>
+                            <Label Text="&#x2022; Piensa MacFly..."/>
+                            <Label StyleClass="empty"/>
+                            <Image Source="https://i.ytimg.com/vi/m6400DrfW4I/maxresdefault.jpg"/>
+                            <Button/>
+                        </FlexLayout>
+                    </Frame>
+                </FlexLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
