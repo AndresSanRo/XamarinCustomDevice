@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CustomDevice.CssPage">
     <ContentPage.Resources>
-        <!--<StyleSheet Source="../Styles/Styles.css"/>-->
+        <StyleSheet Source="../Styles/Styles.css"/>
         <Style TargetType="Frame">
             <Setter Property="BorderColor" Value="Red"/>
             <Setter Property="CornerRadius" Value="20"/>
@@ -19,14 +19,51 @@
                 <FlexLayout>
                     <Frame>
                         <FlexLayout Direction="Column">
-                            <Label Style="header" Text="Regreso al futuro"/>
-                            <Label Text="El protagonista hoy es Marty MacFly"/>
-                            <Image Source=""/>
-                            <Label Text="&#x2022; Condensador de flujo"/>
-                            <Label Text="&#x2022; Piensa MacFly..."/>
-                            <Label StyleClass="empty"/>
-                            <Image Source="https://i.ytimg.com/vi/m6400DrfW4I/maxresdefault.jpg"/>
-                            <Button/>
+                            <Label Text="Alexelcapo" StyleClass="header" />
+                            <Label Text="Es un streamer de éxito" />
+                            <Label Text="  &#x2022; Contigo Pipo" />
+                            <Label Text="  &#x2022; A la primera" />
+                            <Label Text="  &#x2022; Victoria royale" />
+                            <Image Source="https://i.ytimg.com/vi/m6400DrfW4I/maxresdefault.jpg" />
+                            <Label StyleClass="empty" />
+                            <Button />
+                        </FlexLayout>
+                    </Frame>
+                    <Frame>
+                        <FlexLayout Direction="Column">
+                            <Label Text="Marty MacFly" StyleClass="header" />
+                            <Label Text="Marty es el protagonista de Regreso al futuro" />
+                            <Label Text="  &#x2022; Michael J. Fox" />
+                            <Label Text="  &#x2022; Película de 1985" />
+                            <Label Text="  &#x2022; Piensa MacFly, piensa..." />
+                            <Image Source="https://images-na.ssl-images-amazon.com/images/I/71EymRm6ngL._SX425_.jpg" />
+                            <Label StyleClass="empty" />
+                            <Button />
+                        </FlexLayout>
+                    </Frame>
+                    <Frame>
+                        <FlexLayout Direction="Column">
+                            <Label Text="Gremlins" StyleClass="header" />
+                            <Label Text="Gizmo" />
+                            <Label Text="  &#x2022; Mogwai" />
+                            <Label Text="  &#x2022; No dar de comer después de las 00:00" />
+                            <Label Text="  &#x2022; No mojar" />
+                            <Label Text="  &#x2022; No exponerlo a la luz" />
+                            <Image Source="https://cloud10.todocoleccion.online/reproducciones-figuras-accion/tc/2019/02/05/10/149926614.jpg" />
+                            <Label StyleClass="empty" />
+                            <Button />
+                        </FlexLayout>
+                    </Frame>
+                    <Frame>
+                        <FlexLayout Direction="Column">
+                            <Label Text="Batman" StyleClass="header" />
+                            <Label Text="Batman es un superheroe sin poderes, pero con pasta..." />
+                            <Label Text="  &#x2022; Bruce Wayne" />
+                            <Label Text="  &#x2022; Bat cueva" />
+                            <Label Text="  &#x2022; Yo soy Batman" />
+                            <Image Source="https://img.brickowl.com/files/image_cache/larger/lego-batman-crooked-angry-mouth-with-yellow-utility-belt-minifigure-25.jpg" />
+                            <Label StyleClass="empty" />
+                            <Button />
                         </FlexLayout>
                     </Frame>
                 </FlexLayout>
